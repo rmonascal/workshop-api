@@ -18,3 +18,16 @@ The different HTTP response codes allow the receiver to know the state of the re
   * For instance, the **404** code (**Not Found**) establishes that the required resource could not be found.
 * **5XX** codes are delivered when and error occurs on the server side of the interaction.
   * For instance, the **502** code (**Bad Gateway**) establishes that the server, acting as a proxy for another resource, received an invalid response.
+
+## Question 2
+
+*How is REST different from other alternative like RPC or Web Services (WSDL, SOAP, etc.)?*
+
+The main difference si in the conception. While RPC and Web Services establish protocols for invoking remote functionality, REST also establishes the type of information that is passed and the nature of the functionalities that can be invoked.
+
+Particularly, REST enforces CRUD operations (Create, Read, Update and Delete). Endpoints that wish to be RESTful have to adapt to this type of functionalities. REST is more of an architecture pattern for communications than a protocol.
+
+## Question 3
+
+*Which software patterns are commonly built with REST API endpoints?*
+
